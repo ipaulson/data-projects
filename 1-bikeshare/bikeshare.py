@@ -3,9 +3,9 @@ import itertools
 import pandas as pd
 
 ## Filenames
-chicago = 'chicago.csv'
-new_york_city = 'new_york_city.csv'
-washington = 'washington.csv'
+chicago = './data/chicago.csv'
+new_york_city = './data/new_york_city.csv'
+washington = './data/washington.csv'
 
 '''
 Function: get_city()
@@ -116,7 +116,7 @@ def load_data(city, month, day):
 
     # extract month, day of week, and hour from Start Time to create new columns
     df['month'] = df['Start Time'].dt.month
-    df['day_of_week'] = df['Start Time'].dt.weekday_name
+    df['day_of_week'] = df['Start Time'].dt.day_name()
     df['hour'] = df['Start Time'].dt.hour
     df['date'] = df['Start Time'].dt.day
 
