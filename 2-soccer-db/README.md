@@ -1,6 +1,6 @@
 # Investgate a Dataset: European Soccer Database
 
-This notebook was created as part of Udacity's Data Analyst Nanodegree. It is a rudimentary analysis of goals scored in Europe from the years 2008 - 2016.
+This notebook was created as part of Udacity's Data Analyst Nanodegree. It is an analysis of home and away goals scored in Europe from the years 2008 - 2016.
 
 ## Packages
 
